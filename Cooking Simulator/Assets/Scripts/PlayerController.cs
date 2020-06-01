@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject player;
+    public float speed;
+
+    private void Start()
     {
-        
+        player.GetComponent<GameObject>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if(Input.GetKey(KeyCode.A))
+        {
+            player.transform.position = new Vector3(player.transform.position.x - speed, player.transform.position.y, 0);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            player.transform.position = new Vector3(player.transform.position.x + speed, player.transform.position.y, 0);
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + speed, 0);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - speed, 0);
+        }
     }
 }
