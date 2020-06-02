@@ -31,4 +31,12 @@ public class PlayerController : MonoBehaviour
             player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - speed, 0);
         }
     }
+
+    public void OnTriggerStay2D(Collider2D cocinaStay)
+    {
+        if (cocinaStay.gameObject.tag == "Cocina")
+        {
+            Debug.Log("Estas en la cocina, ¡TRABAJA!");
+        }
+    }
 }
