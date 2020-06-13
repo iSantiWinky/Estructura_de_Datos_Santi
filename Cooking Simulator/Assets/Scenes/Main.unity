@@ -2356,11 +2356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd4a9a7c7c87e24b9c7a5b78bcc84da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottomBread: {fileID: 3320407542001587368, guid: 7dd96c8026d264e4aa0b78072d5a55d3,
-    type: 3}
-  topBread: {fileID: 7884094123673319437, guid: a3d2d69649446e4498f08602703f52b7,
-    type: 3}
-  meat: {fileID: 5971645408455424549, guid: 02ac92bccea635449b8e2571fd3ed5ff, type: 3}
 --- !u!61 &844002774
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3277,11 +3272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd4a9a7c7c87e24b9c7a5b78bcc84da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottomBread: {fileID: 3320407542001587368, guid: 7dd96c8026d264e4aa0b78072d5a55d3,
-    type: 3}
-  topBread: {fileID: 7884094123673319437, guid: a3d2d69649446e4498f08602703f52b7,
-    type: 3}
-  meat: {fileID: 5971645408455424549, guid: 02ac92bccea635449b8e2571fd3ed5ff, type: 3}
 --- !u!61 &1088613239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3978,7 +3968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1222071545}
-  speed: 0.08
+  speed: 0.07
 --- !u!212 &1222071547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4036,7 +4026,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222071545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.55, y: 4.54, z: 0}
+  m_LocalPosition: {x: -3.15, y: 2.89, z: 0}
   m_LocalScale: {x: 0.1405957, y: 0.1405957, z: 0.1405957}
   m_Children: []
   m_Father: {fileID: 0}
