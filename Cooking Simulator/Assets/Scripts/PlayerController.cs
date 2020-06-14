@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : FoodController
 {
-   
     public GameObject player;
     public float speed;
 
@@ -33,6 +32,13 @@ public class PlayerController : MonoBehaviour
             player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - speed, 0);
         }
 
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            HamburguerInsta();
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            PizzaInsta();
+        }
     }
-
 }

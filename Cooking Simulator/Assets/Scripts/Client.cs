@@ -6,7 +6,11 @@ public class Client : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        ScoreManager.clientScore += 5;
-        Destroy(gameObject);
+        if(collision.gameObject.tag == "Hamburguesa")
+        {
+            ScoreManager.clientScore += 5;
+            Destroy(gameObject);
+        }
+      
     }
 }

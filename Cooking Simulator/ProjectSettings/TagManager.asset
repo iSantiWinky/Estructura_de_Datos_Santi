@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Cocina
   - Client
+  - Hamburguesa
+  - Pizza
   layers:
   - Default
   - TransparentFX
