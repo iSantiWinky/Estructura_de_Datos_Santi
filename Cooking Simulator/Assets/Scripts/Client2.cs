@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Client : MonoBehaviour
+public class Client2 : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Hamburguesa")
+        if (collision.gameObject.tag == "Pizza")
         {
             ScoreManager.clientScore += 5;
             Destroy(gameObject);
         }
-        else if(collision.gameObject.tag == "Pizza")
+        else if (collision.gameObject.tag == "Hamburguesa")
         {
             ScoreManager.clientScore -= 10;
             Destroy(gameObject);
