@@ -16,6 +16,5 @@ public class Client : MonoBehaviour
             ScoreManager.clientScore -= 10;
             Destroy(gameObject);
         }
-
     }
 }

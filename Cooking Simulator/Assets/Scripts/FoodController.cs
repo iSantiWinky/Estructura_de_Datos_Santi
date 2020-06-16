@@ -11,7 +11,7 @@ public class FoodController : MonoBehaviour
 
     public void HamburguerInsta()
     {
-        spawn = transform.position + new Vector3(0, .3f, 0);
+        spawn = transform.position + new Vector3(-0.2f, 0, 0);
         GameObject hamburguerComplete = Instantiate(hamburguer, spawn, Quaternion.identity) as GameObject;
         hamburguerComplete.transform.parent = objectDad.transform;
         hamburguerComplete.transform.position = spawn;  
@@ -19,7 +19,7 @@ public class FoodController : MonoBehaviour
 
     public void PizzaInsta()
     {
-        spawn = transform.position + new Vector3(.5f, 0, 0);
+        spawn = transform.position + new Vector3(.6f, 0, 0);
         GameObject pizzaComplete = Instantiate(pizza, spawn, Quaternion.identity) as GameObject;
         pizzaComplete.transform.parent = objectDad.transform;
         pizzaComplete.transform.position = spawn;
