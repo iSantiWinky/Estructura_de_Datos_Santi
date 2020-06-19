@@ -13,8 +13,9 @@ public class Client2 : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Hamburguesa")
         {
+            
             ScoreManager.clientScore -= 10;
-            Destroy(gameObject);
+            Destroy(gameObject); 
         }
 
     }
