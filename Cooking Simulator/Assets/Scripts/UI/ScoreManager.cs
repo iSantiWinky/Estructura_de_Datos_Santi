@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
     private void Start()
     {
         text = GetComponent<Text>();
+        clientScore = 0;
     }
 
     private void Update()

@@ -14,7 +14,7 @@ public class FoodController : MonoBehaviour
         spawn = transform.position + new Vector3(-0.2f, 0, 0);
         GameObject hamburguerComplete = Instantiate(hamburguer, spawn, Quaternion.identity) as GameObject;
         hamburguerComplete.transform.parent = objectDad.transform;
-        hamburguerComplete.transform.position = spawn;  
+        hamburguerComplete.transform.position = spawn;
     }
 
     public void PizzaInsta()
@@ -24,5 +24,4 @@ public class FoodController : MonoBehaviour
         pizzaComplete.transform.parent = objectDad.transform;
         pizzaComplete.transform.position = spawn;
     }
-
 }

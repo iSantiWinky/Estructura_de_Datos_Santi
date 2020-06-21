@@ -8,6 +8,7 @@ public class Spawner : MonoBehaviour
 
     public float spawnRate = 5f;
     float spawnNext = 0f;
+
     int toSpwan;
 
     void Update()
@@ -22,9 +23,8 @@ public class Spawner : MonoBehaviour
                 case 1:
                     Vector3 prefabPosition1 = new Vector3(Random.Range(3.5f, 8f), Random.Range(-4f, 2.3f), 0f);
                     Instantiate(prefab1, prefabPosition1, Quaternion.identity);
-                        break;
+                    break;
             }
-
             spawnNext = Time.time + spawnRate;
         }
     }

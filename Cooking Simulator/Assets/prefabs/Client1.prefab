@@ -97,6 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1b38f575103baa41b095a399bd9bf75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hamburguer: {fileID: 738813984669742457, guid: ef9e2379304c8bc4ea2f9ed9a3bc1a5b,
+    type: 3}
+  pizza: {fileID: 676879940651889452, guid: d740f8262abaae940b3626e0f9ed7758, type: 3}
+  objectDad: {fileID: 0}
 --- !u!61 &1143115951443361775
 BoxCollider2D:
   m_ObjectHideFlags: 0

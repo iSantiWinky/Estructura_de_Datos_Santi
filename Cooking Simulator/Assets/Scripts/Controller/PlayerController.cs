@@ -32,7 +32,7 @@ public class PlayerController : FoodController
             player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - speed, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E))
         {
             HamburguerInsta();
         }
@@ -40,5 +40,6 @@ public class PlayerController : FoodController
         {
             PizzaInsta();
         }
+
     }
 }

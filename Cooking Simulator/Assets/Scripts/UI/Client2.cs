@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Client2 : MonoBehaviour
 {
@@ -15,7 +17,13 @@ public class Client2 : MonoBehaviour
         {
             
             ScoreManager.clientScore -= 10;
-            Destroy(gameObject); 
+            Destroy(gameObject);
+            LifeManager.lives -= 1;
+
+            if (LifeManager.lives == 0)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
         }
 
     }

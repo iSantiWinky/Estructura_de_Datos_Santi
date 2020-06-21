@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523160511175636144}
   - component: {fileID: 2276560567578249979}
+  - component: {fileID: 4892480696620361190}
   m_Layer: 0
   m_Name: 'Hamburguesa '
   m_TagString: Hamburguesa
@@ -60,6 +61,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7147875, y: 0.6896229}
   m_EdgeRadius: 0
+--- !u!114 &4892480696620361190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738813984669742457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cab5e4b3b82bbc41a7be4b6b104ee6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1833861236908341204
 GameObject:
   m_ObjectHideFlags: 0
